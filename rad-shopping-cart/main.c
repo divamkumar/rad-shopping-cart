@@ -30,5 +30,8 @@ void setup()
   }
 }
 
-void loop () {}
+void loop () 
+{
+  setup(); // keep printing out wifi rssi value
+}
 
